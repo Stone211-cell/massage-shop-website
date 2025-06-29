@@ -8,7 +8,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 
-const page = () => {
+const Page = () => {
    useEffect(() => {
     AOS.init({
       duration: 800, // ความเร็วของ animation
@@ -39,4 +39,4 @@ const page = () => {
     </div>
   );
 };
-export default page;
+export default Page;

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
+import Image from "next/image";
 
 export function HeroScroll() {
   return (
@@ -17,7 +18,7 @@ export function HeroScroll() {
           </>
         }
       >
-        <img
+        <Image
           src={`/Imgs/HomeImg/banner-3.jpg`}
           alt="hero"
           height={720}

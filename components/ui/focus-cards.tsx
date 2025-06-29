@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 export const Card = React.memo(
   ({
@@ -10,7 +11,7 @@ export const Card = React.memo(
     hovered,
     setHovered,
   }: {
-    card: any;
+    card: Card;
     index: number;
     hovered: number | null;
     setHovered: React.Dispatch<React.SetStateAction<number | null>>;
@@ -23,7 +24,9 @@ export const Card = React.memo(
         hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
       )}
     >
-      <img
+      <Image
+        width={500}
+        height={500}
         src={card.src}
         alt={card.title}
         className="object-cover absolute inset-0"
@@ -36,9 +39,11 @@ export const Card = React.memo(
       >
         <div className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
           {card.title}
-           <p className="text-transparent text-sm md:text-sm font-medium bg-clip-text bg-gradient-to-b from-gray-50 to-gray-400">{card.des}</p>
+          <p className="text-transparent text-sm md:text-sm font-medium bg-clip-text bg-gradient-to-b from-gray-50 to-gray-400">
+            {card.des}
+          </p>
         </div>
-\
+        \
       </div>
     </div>
   )
@@ -49,7 +54,7 @@ Card.displayName = "Card";
 type Card = {
   title: string;
   src: string;
-  des: string
+  des: string;
 };
 
 export function FocusCards({ cards }: { cards: Card[] }) {
