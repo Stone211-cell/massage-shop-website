@@ -7,7 +7,7 @@ export const Banner = () => {
       {/* 👇 รูปพื้นหลัง (อยู่หลังสุด) */}
       <Image
         src="/Imgs/HomeImg/LINE_ALBUM_AuthenticThaimassage_250628_1.jpg"
-        alt="พื้นหลัง"
+        alt="Thaimassage"
         fill
         className="object-cover object-center opacity-20 z-0"
       />
@@ -23,7 +23,7 @@ export const Banner = () => {
         <div className="flex-1 flex justify-center">
           <Image
             src="/Imgs/HomeImg/LINE_ALBUM_AuthenticThaimassage_250628_1.jpg"
-            alt="นวดแผนไทย"
+            alt="Thaimassage"
             width={400}
             height={300}
             className="rounded-br-[300px] rounded-2xl shadow-lg"

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footerbar = () => {
   return (
-    <div className="bg-neutral-800 w-full h-[300] px-8 py-10 mt-20">
+    <div className="bg-neutral-800 w-full h-full px-8 py-10 mt-20">
       <div className="flex flex-col text-white  gap-6 md:grid md:grid-cols-4 md:items-start md:text-start">
         <div>
           <Link href="/" className="cursor-pointer">

@@ -9,9 +9,9 @@ const MapDetail = () => {
     <div>
       <div className="relative bg-gradient-to-b from-blue-200 to-blue-800">
         <Image
-          src="/images/banner/S__8683544.webp"
-          alt="พื้นหลัง"
-          className="absolute inset-0 w-full h-[100%] min-h-[500px] object-cover  backdrop-blur-md"
+          src="/Imgs/HomeImg/LINE_ALBUM_AuthenticThaimassage_250628_1.jpg"
+          alt="Thaimassage"
+          className="absolute inset-0 w-full h-[100%] min-h-[500px] object-cover  backdrop-blur-2xl"
           fill
         />
 

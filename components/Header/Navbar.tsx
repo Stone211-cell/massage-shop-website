@@ -9,8 +9,7 @@ import {
   MenubarSeparator,
   MenubarTrigger,
 } from "@/components/ui/menubar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBarsStaggered } from "@fortawesome/free-solid-svg-icons";
+import { AlignJustify } from 'lucide-react';
 import Image from "next/image";
 
 const Navbar = () => {
@@ -20,7 +19,7 @@ const Navbar = () => {
         <Link href="/" className="cursor-pointer ml-3">
           <Image
             src="/Imgs/logoicon.png"
-            height="160"
+            height="140"
             width="160"
             className="object-cover"
             alt="thaimassage"
@@ -32,7 +31,7 @@ const Navbar = () => {
         <div className="p-3  flex flex-row items-center justify-center">
           {List.map((item, index) => (
             <Link href={item.href} key={index}>
-              <Button className="cursor-pointer transition duration-300 ease-in-out hover:bg-yellow-500  hover:border-1/2 hover:border-black hover:text-white hover:scale-100">
+              <Button className="cursor-pointer transition duration-300 ease-in-out hover:bg-yellow-600  hover:border-1/2 hover:border-black hover:text-white hover:scale-100">
                 {item.label}
               </Button>
             </Link>
@@ -45,11 +44,10 @@ const Navbar = () => {
           <Menubar>
             <MenubarMenu>
               <MenubarTrigger>
-                <FontAwesomeIcon
-                  icon={faBarsStaggered}
-                  size="2x"
-                  color="red"
-                  className="cursor-pointer inline-block text-3xl text-red-400"
+                <AlignJustify 
+                  size="30"
+                  color="black"
+                  className="cursor-pointer"
                 />
               </MenubarTrigger>
               <MenubarContent className="bg-white rounded-2xl">

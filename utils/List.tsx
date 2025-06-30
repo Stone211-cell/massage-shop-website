@@ -8,6 +8,6 @@ export const List: MenuItem[] = [
   { href: "/aboutus", label: "ABOUT US" },
   { href: "/booking", label: "BOOKING" },
   { href: "/services", label: "SERVICES" },
-  { href: `/contect`, label: "CONTECT" },
+  { href: `/contact`, label: "CONTACT" },
 ];
 
