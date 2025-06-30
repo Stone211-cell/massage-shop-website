@@ -4,10 +4,10 @@ type MenuItem = {
 };
 
 export const List: MenuItem[] = [
-  { href: "/", label: "Home" },
-  { href: "/aboutus", label: "aboutus" },
-  { href: "/product", label: "product" },
-  { href: "/priceproduct", label: "priceproduct" },
-  { href: `/contect`, label: "contect" },
+  { href: "/", label: "HOME" },
+  { href: "/aboutus", label: "ABOUT US" },
+  { href: "/booking", label: "BOOKING" },
+  { href: "/services", label: "SERVICES" },
+  { href: `/contect`, label: "CONTECT" },
 ];
 

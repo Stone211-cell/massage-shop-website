@@ -34,7 +34,7 @@ export function TypeWriter() {
         </p>
 
         <div className="flex flex-col mt-5 md:flex-row space-y-8 md:space-y-0 space-x-0 md:space-x-4">
-          <Button className="w-40 h-12 rounded-xl bg-white text-black border border-black  text-lg">
+          <Button className="w-40 h-12 rounded-xl bg-white text-black border border-black  transition duration-300 hover:brightness-110 hover:scale-105 text-lg">
               Join now
           </Button>
         </div>

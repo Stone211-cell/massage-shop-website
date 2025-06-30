@@ -36,7 +36,7 @@ export function ThreeDCard({head,des,pic,linkbtn}:{head:string,des:string,pic:st
             translateZ={20}
             as="button"
             href={linkbtn ?? "https://twitter.com/mannupaaji" }
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+            className="px-4 py-2 rounded-md bg-yellow-800 text-white text-xs font-bold"
           >
             Sign up
           </CardItem>

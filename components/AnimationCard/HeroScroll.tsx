@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { ContainerScroll } from "../ui/container-scroll-animation";
 import Image from "next/image";
@@ -18,14 +17,17 @@ export function HeroScroll() {
           </>
         }
       >
-        <Image
-          src={`/Imgs/HomeImg/banner-3.jpg`}
-          alt="hero"
-          height={720}
-          width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top"
-          draggable={false}
-        />
+        {/* กล่องกำหนดขนาดภาพ */}
+        <div className="relative w-full h-[400px] md:h-[600px]">
+          <Image
+            src="/Imgs/HomeImg/bannermassalogo.jpg"
+            alt="hero"
+            fill
+            className="rounded-2xl object-cover"
+            draggable={false}
+            priority
+          />
+        </div>
       </ContainerScroll>
     </div>
   );
