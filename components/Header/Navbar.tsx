@@ -15,7 +15,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="bg-amber-200 h-20 w-[100%] flex flex-row justify-between items-center px-5">
+    <div className="bg-blue-400 h-20 w-[100%] flex flex-row justify-between items-center px-5">
       <div>
         <Link href="/" className="cursor-pointer ml-3">
           <Image
