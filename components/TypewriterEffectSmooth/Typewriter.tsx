@@ -6,10 +6,6 @@ export function TypeWriter() {
     {
       text: "Radiance",
     },
-    {
-      text: "",
-    },
-
     // {
     //   text: "Aceternity.",
     //   className: "text-blue-500 dark:text-blue-500",

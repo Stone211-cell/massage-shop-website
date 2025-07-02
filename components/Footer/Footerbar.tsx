@@ -2,6 +2,8 @@ import { List } from "@/utils/List";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { ContactIcon } from "../Contacted/ContactIcon";
 
 const Footerbar = () => {
   return (
@@ -23,10 +25,14 @@ const Footerbar = () => {
         </div>
         <div className="flex flex-col gap-3">
           <h2 className="text-2xl font-bold unpercase">Office</h2>
-          <p>Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
-          <p className="text-whit  transition-all duration-300 hover:text-yellow-300">
-            info@email.com
+          <p>
+            {" "}
+            2A Cobden Wollaston, Stourbridge DY8 3RU Authentic Thai Massage
+            Lounge
           </p>
+          {/* <p className="text-whit  transition-all duration-300 hover:text-yellow-300">
+            info@email.com
+          </p> */}
         </div>
         <div className="flex flex-col justify-start  gap-3">
           <h2 className="text-2xl font-bold">LINKS</h2>
@@ -42,11 +48,28 @@ const Footerbar = () => {
             </Button>
           ))}
         </div>
-        <div className="flex flex-col  gap-3">
+        <div className="flex flex-col  gap-5">
           <h2 className="text-2xl font-bold">Get In Touch</h2>
-          <span>kkk</span>
-          <span>kkk</span>
-          <span>kkk</span>
+          <span>
+            <ContactIcon
+              sizeicon="2x"
+              coloricon="yellow"
+              msg="facebook"
+              LINKBTN="https://www.facebook.com/share/19Nn5phDET/?mibextid=wwXIfr"
+              icontype={faFacebook}
+              classtype=""
+            />
+          </span>
+          <span>
+            <ContactIcon
+              sizeicon="2x"
+              coloricon="yellow"
+              msg="instagram"
+              LINKBTN="https://www.instagram.com/authenticthaimassageuk?igsh=MXc3eWR4b2lrbGdncg%3D%3D&utm_source=qr"
+              icontype={faInstagram}
+              classtype=""
+            />
+          </span>
         </div>
       </div>
     </div>

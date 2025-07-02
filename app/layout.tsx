@@ -3,7 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
 import Footerbar from "@/components/Footer/Footerbar";
-
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false; // ปิด auto CSS (ใช้ตัวนี้แทน)
 
 
 const geistSans = Geist({

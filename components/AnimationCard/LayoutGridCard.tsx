@@ -18,73 +18,75 @@ export function LayoutGridCard() {
   );
 }
 
-const SkeletonOne = () => {
-  return (
-    <div>
-      <p className="font-bold md:text-4xl text-xl text-white">
-        House in the woods
-      </p>
-      <p className="font-normal text-base text-white"></p>
-      <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
-        A serene and tranquil retreat, this house in the woods offers a peaceful
-        escape from the hustle and bustle of city life.
-      </p>
-    </div>
-  );
-};
 
 
+const srcimg = "/Imgs/HomeImg/";
 
 const cards = [
   {
     id: 1,
     className: "md:col-span-2",
-    content: <SkeletonOne />,
+
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage.jpg`
   },
   {
     id: 2,
-    className: "col-span-1",
+    className: "md:col-span-1",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage1.jpg`
   },
   {
     id: 3,
-    className: "col-span-1",
+    className: "md:col-span-1",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage-1.jpg`
   },
   {
     id: 4,
     className: "md:col-span-2",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage2.jpg`
   },
   {
     id: 5,
-    className: "md:col-span-1",
+    className: "md:col-span-2",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage-2.jpg`
   },
   {
     id: 6,
-    className: "col-span-2",
+    className: "md:col-span-1",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1464457312035-3d7d0e0c058e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage3.jpg`
   },
   {
     id: 7,
-    className: "col-span-2",
+    className: "md:col-span-2",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage-4.jpg`
   },
   {
     id: 8,
     className: "md:col-span-1",
+
     thumbnail:
-      "https://images.unsplash.com/photo-1475070929565-c985b496cb9f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       `${srcimg}Authentic_ThaiMassage5.jpg`
   },
+  {
+    id: 9,
+    className: "md:col-span-2",
+
+    thumbnail:
+       `${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`
+  },
+  
 ];
 
 

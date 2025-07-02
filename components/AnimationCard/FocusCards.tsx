@@ -1,37 +1,46 @@
 import { FocusCards } from "../ui/focus-cards";
 
 export function FocusCardsComponents() {
+   const srcimg = "/Imgs/HomeImg/";
+  const des = ""
+  // Authentic Thai Massage by Professionals
   const cards = [
     {
-      title: "Forest Adventure",
-      des: "hiii",
-      src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Back Neck shoulder massage",
+      des: `${des}`,
+       src: `${srcimg}Authentic_ThaiMassage4.jpg`,
     },
     {
-      title: "Valley of life",
-      des: "hiii",
-      src: "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Foot Reflexology Massage",
+      des: `${des}`,
+       src: `${srcimg}Foot_AuthenticThaimassage_250702_1.jpg`,
     },
     {
-      title: "Sala behta hi jayega",
-      des: "hiii",
-      src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Aroma Massage",
+      des: `${des}`,
+       src: `${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`,
     },
     {
-      title: "Camping is for pros",
-      des: "hiii",
-      src: "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Swedish Massage ",
+      des: `${des}`,
+       src: `${srcimg}LINE_ALBUM_AuthenticThaimassage_250628_1.jpg`,
     },
     {
-      title: "The road not taken",
-      des: "hiii",
-      src: "https://images.unsplash.com/photo-1507041957456-9c397ce39c97?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      title: "Authentic Thai Massage",
+      des: `${des}`,
+       src: `${srcimg}Authentic_ThaiMassage-3.jpg`,
     },
     {
-      title: "The First Rule",
-      des: "hiii",
-      src: "https://assets.aceternity.com/the-first-rule.png",
+      title: "Authentic Thai Massage",
+      des: `${des}`,
+       src: `${srcimg}Authentic_ThaiMassage.jpg`,
     },
+    // {
+    //   title: "Back Neck shoulder massage",
+    //   des: `${des}`,
+    //    src: `${srcimg}Authentic_ThaiMassage4.jpg`,
+    // },
+   
   ];
 
   return <FocusCards cards={cards} />;
