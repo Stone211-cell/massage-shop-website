@@ -72,7 +72,7 @@ export const Bannerbg = ({bgsrc,srcimg,text,des,desse}:{bgsrc?:string,srcimg?:st
 };
 
 
-export const BannerTime = ({bgsrc,srcimg,text,}:{bgsrc?:string,srcimg?:string,text?:string,}) => {
+export const BannerTime = ({bgsrc,text,}:{bgsrc?:string,text?:string,}) => {
   return (
     <div className="relative bg-black text-white overflow-hidden min-h-screen">
       {/* 👇 รูปพื้นหลัง (อยู่หลังสุด) */}
