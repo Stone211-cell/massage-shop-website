@@ -1,9 +1,15 @@
-import { DirectionCardHover } from "@/components/AnimationCard/DirectionCardHover";
+
 import Image from "next/image";
 
-import { LayoutGridCard } from "@/components/AnimationCard/LayoutGridCard";
+
+import { GridCard } from "@/components/AnimationCard/GridCard";
+import { Bannerbg } from "@/components/Header/Banner";
+import { BentoGridCard } from "@/components/AnimationCard/BentoGridCard";
 const page = () => {
   const srcimg = "/Imgs/HomeImg/";
+  const srcimgbg = "/Imgs/HomeImg/couples-massages.webp";
+  const bgimg = "/Imgs/HomeImg/Authentic_ThaiMassage.jpg";
+
   return (
     <div>
       <div
@@ -30,36 +36,47 @@ const page = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 mt-5 mx-5 gap-3 md:grid-cols-3">
-        <DirectionCardHover
-          imageUrl={`${srcimg}Authentic_ThaiMassage4.jpg`}
-          text="Back Neck shoulder massage"
-          price="30.mins £35 \n 60.mins £60 \n 90mins £85"
+      <div className="grid grid-cols-1 mt-5 gap-3 md:grid-cols-3">
+        <GridCard
+          head={"Back Neck shoulder massage"}
+          des={"30.mins £35 \n 60.mins £60 \n 90mins £85"}
+          pic={`${srcimg}Authentic_ThaiMassage4.jpg`}
         />
-        <DirectionCardHover
-          imageUrl={`${srcimg}Foot_AuthenticThaimassage_250702_1.jpg`}
-          text="Foot Reflexology Massage"
-          price="30.mins £35 \n 60.mins £60 \n 90mins £85"
+        <GridCard
+          head={"Foot Reflexology Massage"}
+          des={"30.mins £35 \n 60.mins £60 \n 90mins £85"}
+          pic={`${srcimg}Foot_AuthenticThaimassage_250702_1.jpg`}
         />
-        <DirectionCardHover
-          imageUrl={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`}
-          text="Aroma Massage"
-          price="30.mins £35 \n 60.mins £60 \n 90mins £85"
+        <GridCard
+          head={"Aroma Massage"}
+          des={"30.mins £35 \n 60.mins £60 \n 90mins £85"}
+          pic={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`}
         />
-        <DirectionCardHover
-          imageUrl={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250628_1.jpg`}
-          text="Aroma Massage"
-          price="30.mins £35 \n 60.mins £60 \n 90mins £85"
+        <GridCard
+          head={"Aroma Massage"}
+          des={"30.mins £35 \n 60.mins £60 \n 90mins £85"}
+          pic={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250628_1.jpg`}
         />
-        <DirectionCardHover
-          imageUrl={`${srcimg}massage-special-2-crop-u177907.jpg`}
-          text="Couple Massagee"
-          price="60mins £100 \n 90mins £170 "
+        <GridCard
+          head={"Back Neck shoulder massage"}
+          des={"30.mins £35 \n 60.mins £60 \n 90mins £85"}
+          pic={`${srcimg}Authentic_ThaiMassage4.jpg`}
         />
       </div>
 
+      <div className="mt-15">
+        <Bannerbg
+          bgsrc={bgimg}
+          srcimg={srcimgbg}
+          text="For couples or two: Our Couple Massagee "
+          des={"60mins £100 \n 90mins £170 "}
+          desse={
+            "Let our masseuses treat you and your partner, friend or loved one at the same time. You will feel comfortable.   enjoy the gentle movements and fragrant massage oils. The melodious music and comfortable lighting will make your body and mind completely relaxed during the massage with your partner."
+          }
+        />
+      </div>
       <div className="mt-15 p-15 bg-gray-800">
-         <LayoutGridCard />
+        <BentoGridCard />
       </div>
     </div>
   );

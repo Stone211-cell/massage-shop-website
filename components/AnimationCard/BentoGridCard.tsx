@@ -27,44 +27,54 @@ export function BentoGridCard() {
 }
 const srcimg = "/Imgs/HomeImg/";
 const Skeletonone = () => (
-  <Image
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
-    alt="Thaimassage"
-    fill
-    src={`${srcimg}Authentic_ThaiMassage4.jpg`}
-  ></Image>
+  <div className="relative w-full h-full">
+    <Image
+      className=" flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
+      alt="Thaimassage"
+      fill
+      src={`${srcimg}Authentic_ThaiMassage4.jpg`}
+    ></Image>
+  </div>
 );
 const Skeletontwo = () => (
-  <Image
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
-    alt="Thaimassage"
-    fill
-    src={`${srcimg}Foot_AuthenticThaimassage_250702_1.jpg`}
-  ></Image>
+  <div className="relative w-full h-full">
+    <Image
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
+      alt="Thaimassage"
+      fill
+      src={`${srcimg}Foot_AuthenticThaimassage_250702_1.jpg`}
+    ></Image>
+  </div>
 );
 const Skeletonthree = () => (
-  <Image
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
-    alt="Thaimassage"
-    fill
-    src={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`}
-  ></Image>
+  <div className="relative w-full h-full">
+    <Image
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
+      alt="Thaimassage"
+      fill
+      src={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250702_1.jpg`}
+    ></Image>
+  </div>
 );
 const Skeletonfour = () => (
-  <Image
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
-    alt="Thaimassage"
-    fill
-    src={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250628_1.jpg`}
-  ></Image>
+  <div className="relative w-full h-full">
+    <Image
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
+      alt="Thaimassage"
+      fill
+      src={`${srcimg}LINE_ALBUM_AuthenticThaimassage_250628_1.jpg`}
+    ></Image>
+  </div>
 );
 const Skeletonfive = () => (
-  <Image
-    className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
-    alt="Thaimassage"
-    fill
-    src={`${srcimg}massage-special-2-crop-u177907.jpg`}
-  ></Image>
+  <div className="relative w-full h-full">
+    <Image
+      className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"
+      alt="Thaimassage"
+      fill
+      src={`${srcimg}massage-special-2-crop-u177907.jpg`}
+    ></Image>
+  </div>
 );
 const items = [
   {

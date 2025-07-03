@@ -21,9 +21,9 @@ const content = [
     ),
   },
   {
-    title: "Lady Bowling",
+    title: "Our massage is safe for your body",
     description:
-      "Great experience here! Tea at the end is refreshing and the place feels cosy. Thank you for getting my body like a new born 🙏🏼",
+      "gentle on bones and organs. Every session is focused on relaxation, using careful techniques to ease tension without strain or discomfort.",
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <Image
@@ -37,9 +37,9 @@ const content = [
     ),
   },
   {
-    title: "Lena Sunier",
+    title: "Step into a peaceful space  where calming aromas",
     description:
-      "Relaxing environment with friendly, professional massage therapists. Recommend",
+      "soft lighting, and gentle music combine to create a truly immersive relaxation experience — just for you.",
     content: (
       <div className="flex h-full w-full items-center justify-center  bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
         <Image
