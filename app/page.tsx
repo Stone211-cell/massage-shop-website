@@ -46,7 +46,7 @@ const Page = () => {
         <FocusCardsComponents />
       </div>
 
-      <div data-aos="fade-left mt-5">
+      <div data-aos="fade-left " className="mt-10">
         <BannerTime
           bgsrc=
             "/Imgs/HomeImg/907b43_f73122ce29a749c4a0500af848e24ace~mv2.avif"
